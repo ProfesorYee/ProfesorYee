@@ -1,3 +1,4 @@
+@media (min-width: 992px){
 * {
   padding:0;
   margin:0;
@@ -159,4 +160,135 @@ h2{
 }
 .exp-cont{
   background:rgb(240,240,240);
+}
+.videos{
+  background:rgb(240,240,240);
+  text-align:center;
+}
+.contenedor-video{
+  display:flex;
+  justify-content:space-around;
+}
+.boton{
+  background:yellow;
+  color:black;
+  font-size:20px;
+  font-weight:bold;
+}
+.boton:hover{
+  background:lightblue;
+}
+.formularios{
+  display:flex;
+  flex-wrap:wrap;
+  flex-basis:33.333333%;
+  justify-content:space-around;
+  font-size:1.5em;
+  font-weight:bold;
+  text-transform:uppercase;
+  
+}
+.formularios div{
+  width:30%;
+  padding: 20px 0;
+}
+.contacto{
+  display:flex;
+  justify-content:space-around;
+  text-align:justify;
+  font-size:1.3em;
+}
+
+
+}
+@media (max-width: 767px){
+   * {
+  padding:0;
+  margin:0;
+}
+.encabezado{
+  background: rgb(50, 200, 247);
+}
+.encabezado nav ul{
+  list-style:none;
+ 
+}
+  .contenedor{
+  display:flex;
+  flex-direction:column;
+}
+  #logo{
+  width:50px;
+  border-radius:100px;
+  align:center;
+}
+  .encabezado nav{
+  display:flex;
+  padding:0 20px;
+}
+  .principal{
+  display:flex;
+   flex-direction:column;
+  align-items: center; 
+  justify-content: center;
+  font-size:1.5em;
+}
+  .titulo{
+  font-size:1.6em;
+  text-transform:uppercase;
+  text-shadow:2px 2px black;
+  width:200px;
+  color:white;
+  margin-top:-40px;
+    margin-left:60px;
+  text-align:center;
+}
+  a{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  color:white;
+  padding:0px 0px;
+  display:block;
+}
+  a:hover{
+  background:rgb(44,44,44);
+}
+  .encabezado nav ul li ul{
+  display:none;
+}
+.encabezado nav ul li:hover>ul{
+  display:block;
+}
+ p
+{
+  font-size:1.2em;
+  text-align:justify;
+} 
+  h2{
+  color:blue;
+  font-weight:bold;
+  font-size:25px;
+}
+  .contacto{
+  display:flex;
+  flex-direction:column;
+  text-align:justify;
+  font-size:1.3em;
+}
+  .img-contacto{
+    text-align:center;
+  }
+  .intro{
+  height:150px;
+  background: url("https://p4.wallpaperbetter.com/wallpaper/992/756/985/star-space-celestial-body-light-wallpaper-preview.jpg");
+  object-fit:cover;
+}
+  .introtexto{
+  color:white;
+  font-size:40px;
+    padding-top:10px;
+  text-align:center;
+}
+  
 }
