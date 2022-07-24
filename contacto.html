@@ -8,8 +8,10 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title> Profesor Yee. Conctacto </title>
         <link rel="stylesheet" href="style.css"/>
+	<script src="./script.js"></script>
 </head>
 <body>
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
 <header class="encabezado">
   <nav class="contenedor">
     <div class="logo"><a href="index.html"><img id="logo" src="https://yt3.ggpht.com/ytc/AKedOLTnKGu6Imgp2tNRfzxaAPU6RLw-TS5tAfuhxk8Xtw=s900-c-k-c0x00ffffff-no-rj"></a></div>
@@ -54,3 +56,34 @@
     <p>Se darán los detalles del enlace y la cuenta de depósito</p>
   </div>
 </div>
+
+
+<div>
+  <h2>Image Changer</h2>
+</div>
+
+<d>
+  <canvas id="canvas1"></canvas>
+  <canvas id="canvas2"></canvas>
+  <canvas id="canvas3"></canvas>
+  <canvas id="canvas4"></canvas>
+</div>
+
+<div>
+  <input type="button" value="Combine" onclick="combine()"/>
+  <input type="button" value="Clear" onclick="borrar()"/>
+</div>
+
+<div>
+  <input type="file" multiple="false" accept="image/*" id="upmain" onchange="uploadmain()">
+  <input type="file" multiple="false" accept="image/*" id="upfont" onchange="uploadfont()">
+</div>
+
+<div>
+  <input type="button" value="Grises" onclick="gris()"/>
+  <input type="button" value="Rainbow" onclick="rainbow()"/>
+  <input type="button" value="Esconder imagen" onclick="esconder()"/>
+  <input type="button" value="Decifrar código" onclick="decifrar()"/>
+  
+</div>
+

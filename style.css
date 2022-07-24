@@ -3,6 +3,14 @@
   padding:0;
   margin:0;
 }
+
+canvas{
+width:350px;
+  height:250px;
+  border: 2px solid rgb(100,20,30);
+
+}
+
 .encabezado{
   background: rgb(50, 200, 247);
 }
