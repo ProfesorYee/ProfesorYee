@@ -45,7 +45,21 @@ document.getElementById("combinar").addEventListener("click",function(){
 
 document.getElementById("borrar").addEventListener("click",function(){
   var canvas1=document.getElementById("canvas1");
+  var canvas2=document.getElementById("canvas2");
+  var canvas3=document.getElementById("canvas3");
+  var canvas4=document.getElementById("canvas4");
   main.drawTo(canvas1);
+  main=null;
+  copy1=copy2=copy3=copy4=copy5=copy6=null;
+  font=null;
+  let ctx = canvas1.getContext("2d");
+  ctx.clearRect(0, 0, canvas1.width , canvas1.height);
+  ctx = canvas2.getContext("2d");
+  ctx.clearRect(0, 0, canvas2.width , canvas2.height);
+  ctx = canvas3.getContext("2d");
+  ctx.clearRect(0, 0, canvas3.width , canvas3.height);
+  ctx = canvas4.getContext("2d");
+  ctx.clearRect(0, 0, canvas4.width , canvas4.height);
 })
 
 document.getElementById("gris").addEventListener("click",function(){
