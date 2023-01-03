@@ -2,7 +2,60 @@ canvas{
 width:350px;
   height:250px;
   border: 2px solid rgb(100,20,30);
+}
 
+button{
+  margin:5px;
+}
+
+
+#gris{
+  background: gray;
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+}
+
+#rainbow{
+  background:lightgreen;
+  color:blue;
+  border: 2px solid purple;
+  font-size:20px;
+  font-weight:bold;
+}
+
+#hide{
+  background:darkgreen;
+  color:goldenrod;
+  font-weight:bold;
+  font-size:20px;
+}
+
+#decode{
+  background:lightblue;
+  font-weight:bold;
+  font-size:20px;
+}
+
+#combinar{
+  background:purple;
+  color:yellow;
+  fontweight:bold;
+  font-size:20px;
+}
+
+#borrar{
+  background:black;
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+}
+
+input{
+  background:lightblue;
+  font-weight:bold;
+  font-size:15px;
+  margin:5px;
 }
 
 
